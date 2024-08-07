@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class="container">
+        <input type = "number" placeholder="Input Amount">
+        <div id="from">
+            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Nuvola_unknown_flag.svg/96px-Nuvola_unknown_flag.svg.png?20220807142547" id = "fromFlag">
+            <select name="selectFrom" id = "selectFrom">
+                <option>Select</option>
+            </select>
+            <p id = "fromDigit">?</p>
+        </div>
+        
+
+        <p id = "convertSign">→</p>
+
+        <div id="to">
+            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Nuvola_unknown_flag.svg/96px-Nuvola_unknown_flag.svg.png?20220807142547" id = "toFlag">
+            <select name="selectTo" id = "selectTo">
+                <option>Select</option>
+            </select>
+            <p id = "toDigit">?</p>
+        </div>
+        <button>Convert</button>
+    </div>
+    
+    <script src = "script.js"></script>
+</body>
+</html>
